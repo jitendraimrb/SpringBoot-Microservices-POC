@@ -8,6 +8,7 @@ public class SpringBootBannerApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootBannerApplication.class, args);
+		System.out.println("This is just a custom banner");
 	}
 
 }
