@@ -1,0 +1,32 @@
+Sorting of List<Integer>, list<employee> on the basic of ID and assending and decending order.
+
+Sorting of Map<K, V> by key and value
+
+Write custom lambda and implements,
+
+Map, flatMap and filter, write a program, use flatMap by using employee of list
+
+
+Optional and predicate(test())
+
+
+average salary and total salary of employee
+
+grouping by lets say( get the employee by department and salary)
+
+get the duplicate value ().
+
+Second highest salary
+
+
+
+All string program and arrays.
+
+Use of Date time in java-8
+
+
+
+Array sorting without using any Ready Made method.
+
+
+how to avoid null value in JSON response data to client
