@@ -14,6 +14,7 @@ import javax.persistence.Table;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -30,6 +31,7 @@ public class Product {
 	private Integer ID;
 	
 	@Column(length = 100, nullable = false)
+	@Schema (description = "Product name should have atleast 3 character")
 	private String name;
 	private Double price;
 	private String description;
