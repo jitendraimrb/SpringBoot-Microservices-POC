@@ -19,7 +19,7 @@ import com.learning.exception.ProdutNotFoundException;
 import com.learning.service.ProductService;
 
 @RestController
-@RequestMapping("/v1/product")
+@RequestMapping("/product/v1")
 public class ProductController {
 
 	@Autowired

@@ -56,5 +56,19 @@ public class CategoryService {
 		
 		return categoryRepository.findByName(name);
 	}
+	
+	public void updateCategoryName(Integer id, String name) {
+		Category categoryObject = get(id);
+//		categoryObject.setName(name);
+		
+		if (categoryObject!=null) {
+			categoryRepository.updateCategoryName(id, name);
+		} else {
+			log.info("Could not find any product with id {}", id);
+
+			throw new CategoryNotFoundException("Could not find any product with id {}" + id);
+
+		}
+	}
 
 }
